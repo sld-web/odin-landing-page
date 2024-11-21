@@ -50,8 +50,10 @@
 }
 
 .smp-img{
-    display:flex;
-    align-items: ;
+   background-color: gray;
+    justify-content: right ;
+    color: #f9faf8;
+    width: 30%;
 }
 
 .button{
