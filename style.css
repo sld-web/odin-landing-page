@@ -5,6 +5,7 @@
 
 .main{
     background-color: #1f2937;
+
 }
 .header{
    
@@ -49,13 +50,6 @@
     color: #e5e7eb;
 }
 
-.smp-img{
-   background-color: gray;
-    justify-content: right ;
-    color: #f9faf8;
-    width: 30%;
-}
-
 .button{
     background-color: #3882f6;
     margin-top: 20px;
@@ -64,4 +58,26 @@
     width: 10%;
     border-radius: 10px;
     border: 0;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.img-container{
+    display: flex;
+    margin: 0;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.card1, .card2, .card3, .card4{
+    width: 150px;
+    height:150px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border: 4px solid;
+    border-color: #3882F6;
 }
